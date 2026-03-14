@@ -1,0 +1,47 @@
+body{
+  background-color: lightblue;
+  transition: background-color 3s ease;
+}
+
+.st{
+  background-color: pink;
+  color: blue;
+  width:200px;
+  height:50px;
+  padding:10px 30px;
+  margin:100px;
+  border:2px solid black;
+  border-radius:10px;
+  
+  transition: opacity 2s ease;
+
+}
+
+
+
+.we_st{
+    transition: opacity 4s ease;
+    opacity: 0;
+}
+
+
+
+
+.ft{
+  margin:0px;
+  padding:-40px 30px;
+}
+
+
+.welcom{
+  font-size: 22px;
+  margin-left: 115px;
+  margin-top: -300px;
+
+}
+
+.welcom_st{
+    transition: transform 4s ease;
+    transform: translateY(100px);
+}
+
